@@ -66,7 +66,6 @@
 	
 <svelte:head>
 	<title>Sleep or Code?</title>
-	<link rel="icon" href="favicon.ico" />
 </svelte:head>
 
 
