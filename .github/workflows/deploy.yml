@@ -28,4 +28,4 @@ jobs:
         run: touch ./build/.nojekyll
 
       - name: Deploy to GitHub Pages
-        run: npx run deploy
+        run: npm run deploy
