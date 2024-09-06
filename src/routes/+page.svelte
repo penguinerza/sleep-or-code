@@ -23,6 +23,9 @@
 	});
 	const kidsYay = new Howl({src: "https://www.myinstants.com/media/sounds/kids-saying-yay-sound-effect_3.mp3",
 	});
+	const drumRoll = new Howl({
+		src: "https://www.myinstants.com/media/sounds/drum-roll-gaming-sound-effect-hd.mp3",
+	});
 
 	let sleepGifUrl ="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm8zd2F2aHJqdWUzdzB3Ynh6Z2hnN3dqdTg1NnFrazVxdjIxNmZmMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12cYyFxlbIgXeg/giphy.webp";
 	let codeGifUrl = "https://media.tenor.com/bxe8Qsx3UusAAAAM/cat.gif";
@@ -36,9 +39,10 @@
 
 	function triggerVerdict() {
 		visible = false;
+		drumRoll.play();
 		setTimeout(() => {
 			generateVerdict();
-		}, 3000);
+		}, 4500);
 	}
 	
 	function generateVerdict() {
