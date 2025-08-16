@@ -2,6 +2,6 @@
 
 This web app will help you decide wether you should sleep or code with 50-50 chance decided by RNG.
 
-Try it [here](https://penguinerza.github.io/sleep-or-code)!!
+[Try it now!](https://penguinerza.github.io/sleep-or-code)
 
 Maybe you'll find something if you really don't want to code...
